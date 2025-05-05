@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\troyk\\source\\repos\\AgriEnergyConnect\\AgriEnergyConnect.csproj": {}
+    "C:\\Users\\troyk\\source\\repos\\AgriEnergy\\AgriEnergyConnect.csproj": {}
   },
   "projects": {
-    "C:\\Users\\troyk\\source\\repos\\AgriEnergyConnect\\AgriEnergyConnect.csproj": {
+    "C:\\Users\\troyk\\source\\repos\\AgriEnergy\\AgriEnergyConnect.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\troyk\\source\\repos\\AgriEnergyConnect\\AgriEnergyConnect.csproj",
+        "projectUniqueName": "C:\\Users\\troyk\\source\\repos\\AgriEnergy\\AgriEnergyConnect.csproj",
         "projectName": "AgriEnergyConnect",
-        "projectPath": "C:\\Users\\troyk\\source\\repos\\AgriEnergyConnect\\AgriEnergyConnect.csproj",
+        "projectPath": "C:\\Users\\troyk\\source\\repos\\AgriEnergy\\AgriEnergyConnect.csproj",
         "packagesPath": "C:\\Users\\troyk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\troyk\\source\\repos\\AgriEnergyConnect\\obj\\",
+        "outputPath": "C:\\Users\\troyk\\source\\repos\\AgriEnergy\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\troyk\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -44,6 +44,24 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

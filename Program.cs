@@ -3,6 +3,12 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
+builder.Services.AddSession(options =>
+{
+    options.IdleTimeout = TimeSpan.FromMinutes(60); 
+    options.Cookie.IsEssential = true; // To ensure the session works even with cookie policies
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
