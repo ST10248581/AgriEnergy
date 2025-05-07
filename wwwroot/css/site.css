@@ -43,7 +43,7 @@ body {
     color: var(--color-fg);
     line-height: 1.6;
     font-size: var(--font-size-base);
-    padding: var(--spacing-2);
+    /* Removed padding here to avoid centering issues */
 }
 
 /* Layout Containers */
@@ -54,7 +54,7 @@ body {
 }
 
 .main-content {
-    padding-bottom: var(--spacing-4);
+    /* Removed padding-bottom to allow full height flex centering */
 }
 
 /* Typography */
@@ -133,7 +133,7 @@ a {
 /* Buttons */
 .button, button, .btn {
     display: inline-block;
-    padding: var(--spacing-1) var(--spacing-2);
+    padding: var(--spacing-2) var(--spacing-3);
     font-size: var(--font-size-base);
     background-color: var(--color-primary);
     color: white;
@@ -141,6 +141,7 @@ a {
     border-radius: var(--radius-md);
     cursor: pointer;
     transition: background-color 0.2s ease-in-out;
+    text-align: center;
 }
 
     .button:hover, button:hover, .btn:hover {
@@ -168,7 +169,7 @@ input, textarea, select {
     background-color: white;
     border: 1px solid var(--color-border);
     border-radius: var(--radius-md);
-    padding: var(--spacing-3);
+    padding: var(--spacing-5);
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
 }
 
@@ -208,7 +209,6 @@ input, textarea, select {
 /* Grid/Flex */
 .flex {
     display: flex;
-    gap: var(--spacing-2);
 }
 
 .flex-col {
@@ -227,6 +227,41 @@ input, textarea, select {
 .grid-cols-3 {
     grid-template-columns: repeat(3, 1fr);
 }
+
+.items-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.min-h-screen {
+    min-height: 100vh;
+}
+
+.h-full {
+    height: 100%;
+}
+
+.w-full {
+    width: 100%;
+}
+
+/* Sign-in Layout Helpers */
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 120px); 
+    padding: var(--spacing-2);
+}
+
+.auth-card {
+    width: 100%;
+    max-width: 400px;
+}
+
 
 /* Responsive Adjustments */
 @media (max-width: 768px) {
