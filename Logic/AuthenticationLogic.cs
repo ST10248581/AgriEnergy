@@ -6,13 +6,6 @@ namespace AgriEnergyConnect.Logic
 {
     public class AuthenticationLogic
     {
-        private readonly IHttpContextAccessor _httpContextAccessor;
-
-        public AuthenticationLogic(IHttpContextAccessor httpContextAccessor)
-        {
-            _httpContextAccessor = httpContextAccessor;
-        }
-
         public bool compareHashedPasswords(string hashedPassword, string enteredHashedPassword)
         {
            if (hashedPassword == null || enteredHashedPassword == null) { throw new Exception("Password cannot be null"); }
@@ -70,13 +63,13 @@ namespace AgriEnergyConnect.Logic
             {
                 //Emails stored in lower case
                 var user = dm.Users.FirstOrDefault(u => u.Email == email.ToLower());
-                if (user == null) throw new Exception("Incorrect email or password,please try again.");
+                if (user == null) throw new Exception("Incorrect email or password, please try again.");
 
                 var userRole = dm.UserRoles.FirstOrDefault(r => r.RoleId == user.RoleId);
                 if (userRole == null) throw new Exception("User role not found, sign in attempt failed.");
 
-                bool isCorrectPassword = compareHashedPasswords(password, hashUserPassword(user.Password));
-                if (!isCorrectPassword) throw new Exception("Incorrect email or password,please try again.");
+                bool isCorrectPassword = compareHashedPasswords(hashUserPassword(password), hashUserPassword(user.Password));
+                if (!isCorrectPassword) throw new Exception("Incorrect email or password, please try again.");
 
                 EnvironmentVariables._isLoggedIn = true;
                 EnvironmentVariables._userId = user.UserId;

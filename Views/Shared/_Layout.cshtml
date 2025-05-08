@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - AgriEnergyConnect</title>
 
-    <!-- Only your custom CSS -->
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/AgriEnergyConnect.styles.css" asp-append-version="true" />
 </head>
@@ -15,11 +14,12 @@
             <div class="container">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">AgriEnergyConnect</a>
 
-                <!-- You can create a custom toggle script if you want responsive collapse -->
                 <div class="navbar-links">
                     <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                     <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                     <a class="nav-link" asp-area="" asp-controller="Authentication" asp-action="SignIn">Sign In</a>
+                    <a class="nav-link" asp-area="" asp-controller="Authentication" asp-action="SignUp">Sign Up</a>
+                    a class="nav-link" asp-area="" asp-controller="Authentication" asp-action="SignOut">Sign Out</a>
                 </div>
             </div>
         </nav>
@@ -38,7 +38,6 @@
         </div>
     </footer>
 
-    <!-- Only your custom JS -->
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
