@@ -3,6 +3,46 @@
   "WorkspaceRootPath": "C:\\Users\\troyk\\source\\repos\\AgriEnergy\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E131A1F9-F0DF-4D70-B046-AE821CD46D25}|AgriEnergyConnect.csproj|c:\\users\\troyk\\source\\repos\\agrienergy\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E131A1F9-F0DF-4D70-B046-AE821CD46D25}|AgriEnergyConnect.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E131A1F9-F0DF-4D70-B046-AE821CD46D25}|AgriEnergyConnect.csproj|c:\\users\\troyk\\source\\repos\\agrienergy\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E131A1F9-F0DF-4D70-B046-AE821CD46D25}|AgriEnergyConnect.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E131A1F9-F0DF-4D70-B046-AE821CD46D25}|AgriEnergyConnect.csproj|c:\\users\\troyk\\source\\repos\\agrienergy\\data\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E131A1F9-F0DF-4D70-B046-AE821CD46D25}|AgriEnergyConnect.csproj|solutionrelative:data\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E131A1F9-F0DF-4D70-B046-AE821CD46D25}|AgriEnergyConnect.csproj|c:\\users\\troyk\\source\\repos\\agrienergy\\controllers\\employees\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E131A1F9-F0DF-4D70-B046-AE821CD46D25}|AgriEnergyConnect.csproj|solutionrelative:controllers\\employees\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E131A1F9-F0DF-4D70-B046-AE821CD46D25}|AgriEnergyConnect.csproj|c:\\users\\troyk\\source\\repos\\agrienergy\\views\\employee\\addfarmer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E131A1F9-F0DF-4D70-B046-AE821CD46D25}|AgriEnergyConnect.csproj|solutionrelative:views\\employee\\addfarmer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E131A1F9-F0DF-4D70-B046-AE821CD46D25}|AgriEnergyConnect.csproj|c:\\users\\troyk\\source\\repos\\agrienergy\\logic\\authenticationlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E131A1F9-F0DF-4D70-B046-AE821CD46D25}|AgriEnergyConnect.csproj|solutionrelative:logic\\authenticationlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E131A1F9-F0DF-4D70-B046-AE821CD46D25}|AgriEnergyConnect.csproj|c:\\users\\troyk\\source\\repos\\agrienergy\\models\\authentication\\registerrequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E131A1F9-F0DF-4D70-B046-AE821CD46D25}|AgriEnergyConnect.csproj|solutionrelative:models\\authentication\\registerrequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E131A1F9-F0DF-4D70-B046-AE821CD46D25}|AgriEnergyConnect.csproj|c:\\users\\troyk\\source\\repos\\agrienergy\\views\\employee\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E131A1F9-F0DF-4D70-B046-AE821CD46D25}|AgriEnergyConnect.csproj|solutionrelative:views\\employee\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E131A1F9-F0DF-4D70-B046-AE821CD46D25}|AgriEnergyConnect.csproj|c:\\users\\troyk\\source\\repos\\agrienergy\\applicationsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E131A1F9-F0DF-4D70-B046-AE821CD46D25}|AgriEnergyConnect.csproj|solutionrelative:applicationsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E131A1F9-F0DF-4D70-B046-AE821CD46D25}|AgriEnergyConnect.csproj|c:\\users\\troyk\\source\\repos\\agrienergy\\filters\\authenticationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E131A1F9-F0DF-4D70-B046-AE821CD46D25}|AgriEnergyConnect.csproj|solutionrelative:filters\\authenticationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E131A1F9-F0DF-4D70-B046-AE821CD46D25}|AgriEnergyConnect.csproj|c:\\users\\troyk\\source\\repos\\agrienergy\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E131A1F9-F0DF-4D70-B046-AE821CD46D25}|AgriEnergyConnect.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -11,44 +51,20 @@
       "RelativeMoniker": "D:0:0:{E131A1F9-F0DF-4D70-B046-AE821CD46D25}|AgriEnergyConnect.csproj|solutionrelative:controllers\\authentication\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E131A1F9-F0DF-4D70-B046-AE821CD46D25}|AgriEnergyConnect.csproj|c:\\users\\troyk\\source\\repos\\agrienergy\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E131A1F9-F0DF-4D70-B046-AE821CD46D25}|AgriEnergyConnect.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E131A1F9-F0DF-4D70-B046-AE821CD46D25}|AgriEnergyConnect.csproj|c:\\users\\troyk\\source\\repos\\agrienergy\\logic\\authenticationlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E131A1F9-F0DF-4D70-B046-AE821CD46D25}|AgriEnergyConnect.csproj|solutionrelative:logic\\authenticationlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E131A1F9-F0DF-4D70-B046-AE821CD46D25}|AgriEnergyConnect.csproj|c:\\users\\troyk\\source\\repos\\agrienergy\\views\\authentication\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E131A1F9-F0DF-4D70-B046-AE821CD46D25}|AgriEnergyConnect.csproj|solutionrelative:views\\authentication\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E131A1F9-F0DF-4D70-B046-AE821CD46D25}|AgriEnergyConnect.csproj|c:\\users\\troyk\\source\\repos\\agrienergy\\data\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E131A1F9-F0DF-4D70-B046-AE821CD46D25}|AgriEnergyConnect.csproj|solutionrelative:data\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E131A1F9-F0DF-4D70-B046-AE821CD46D25}|AgriEnergyConnect.csproj|c:\\users\\troyk\\source\\repos\\agrienergy\\models\\authentication\\registerrequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E131A1F9-F0DF-4D70-B046-AE821CD46D25}|AgriEnergyConnect.csproj|solutionrelative:models\\authentication\\registerrequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E131A1F9-F0DF-4D70-B046-AE821CD46D25}|AgriEnergyConnect.csproj|c:\\users\\troyk\\source\\repos\\agrienergy\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E131A1F9-F0DF-4D70-B046-AE821CD46D25}|AgriEnergyConnect.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E131A1F9-F0DF-4D70-B046-AE821CD46D25}|AgriEnergyConnect.csproj|c:\\users\\troyk\\source\\repos\\agrienergy\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E131A1F9-F0DF-4D70-B046-AE821CD46D25}|AgriEnergyConnect.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E131A1F9-F0DF-4D70-B046-AE821CD46D25}|AgriEnergyConnect.csproj|c:\\users\\troyk\\source\\repos\\agrienergy\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{E131A1F9-F0DF-4D70-B046-AE821CD46D25}|AgriEnergyConnect.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E131A1F9-F0DF-4D70-B046-AE821CD46D25}|AgriEnergyConnect.csproj|c:\\users\\troyk\\source\\repos\\agrienergy\\views\\authentication\\signin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E131A1F9-F0DF-4D70-B046-AE821CD46D25}|AgriEnergyConnect.csproj|solutionrelative:views\\authentication\\signin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E131A1F9-F0DF-4D70-B046-AE821CD46D25}|AgriEnergyConnect.csproj|c:\\users\\troyk\\source\\repos\\agrienergy\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E131A1F9-F0DF-4D70-B046-AE821CD46D25}|AgriEnergyConnect.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E131A1F9-F0DF-4D70-B046-AE821CD46D25}|AgriEnergyConnect.csproj|c:\\users\\troyk\\source\\repos\\agrienergy\\filters\\authenticationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E131A1F9-F0DF-4D70-B046-AE821CD46D25}|AgriEnergyConnect.csproj|solutionrelative:filters\\authenticationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E131A1F9-F0DF-4D70-B046-AE821CD46D25}|AgriEnergyConnect.csproj|c:\\users\\troyk\\source\\repos\\agrienergy\\environmentvariables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,7 +82,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1858,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,20 +90,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\troyk\\source\\repos\\AgriEnergy\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\troyk\\source\\repos\\AgriEnergy\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-09T06:10:47.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\troyk\\source\\repos\\AgriEnergy\\Controllers\\Employees\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\Employees\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\troyk\\source\\repos\\AgriEnergy\\Controllers\\Employees\\EmployeeController.cs",
+              "RelativeToolTip": "Controllers\\Employees\\EmployeeController.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAADwvx8AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T05:41:45.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddFarmer.cshtml",
+              "DocumentMoniker": "C:\\Users\\troyk\\source\\repos\\AgriEnergy\\Views\\Employee\\AddFarmer.cshtml",
+              "RelativeDocumentMoniker": "Views\\Employee\\AddFarmer.cshtml",
+              "ToolTip": "C:\\Users\\troyk\\source\\repos\\AgriEnergy\\Views\\Employee\\AddFarmer.cshtml",
+              "RelativeToolTip": "Views\\Employee\\AddFarmer.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAIwAUAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-09T05:39:43.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\troyk\\source\\repos\\AgriEnergy\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
               "ToolTip": "C:\\Users\\troyk\\source\\repos\\AgriEnergy\\wwwroot\\css\\site.css",
               "RelativeToolTip": "wwwroot\\css\\site.css",
-              "ViewState": "AQIAAPIAAAAAAAAAAAAYwBABAAAJAAAA",
+              "ViewState": "AQIAAB8BAAAAAAAAAAAmwDoBAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-05-08T05:55:48.188Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 13,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\troyk\\source\\repos\\AgriEnergy\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -95,12 +150,11 @@
               "RelativeToolTip": "Controllers\\HomeController.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAIwCMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T05:53:14.14Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-08T05:53:14.14Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 14,
               "Title": "Error.cshtml",
               "DocumentMoniker": "C:\\Users\\troyk\\source\\repos\\AgriEnergy\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
@@ -108,97 +162,58 @@
               "RelativeToolTip": "Views\\Shared\\Error.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-08T05:52:54.681Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-08T05:52:54.681Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "AuthenticationController.cs",
               "DocumentMoniker": "C:\\Users\\troyk\\source\\repos\\AgriEnergy\\Controllers\\Authentication\\AuthenticationController.cs",
               "RelativeDocumentMoniker": "Controllers\\Authentication\\AuthenticationController.cs",
               "ToolTip": "C:\\Users\\troyk\\source\\repos\\AgriEnergy\\Controllers\\Authentication\\AuthenticationController.cs",
               "RelativeToolTip": "Controllers\\Authentication\\AuthenticationController.cs",
-              "ViewState": "AQIAAEQAAAAAAAAAAAAIwFoAAAANAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-06T05:49:13.151Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 9,
               "Title": "AuthenticationFilter.cs",
               "DocumentMoniker": "C:\\Users\\troyk\\source\\repos\\AgriEnergy\\Filters\\AuthenticationFilter.cs",
               "RelativeDocumentMoniker": "Filters\\AuthenticationFilter.cs",
               "ToolTip": "C:\\Users\\troyk\\source\\repos\\AgriEnergy\\Filters\\AuthenticationFilter.cs",
               "RelativeToolTip": "Filters\\AuthenticationFilter.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA0AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABSAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T06:19:23.3Z"
+              "WhenOpened": "2025-05-05T06:19:23.3Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "AuthenticationLogic.cs",
               "DocumentMoniker": "C:\\Users\\troyk\\source\\repos\\AgriEnergy\\Logic\\AuthenticationLogic.cs",
               "RelativeDocumentMoniker": "Logic\\AuthenticationLogic.cs",
               "ToolTip": "C:\\Users\\troyk\\source\\repos\\AgriEnergy\\Logic\\AuthenticationLogic.cs",
               "RelativeToolTip": "Logic\\AuthenticationLogic.cs",
-              "ViewState": "AQIAADEAAAAAAAAAAADwv0kAAAA4AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwB8AAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-05T06:04:57.4Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\troyk\\source\\repos\\AgriEnergy\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\troyk\\source\\repos\\AgriEnergy\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "Models\\ErrorViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABCAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T05:57:47.451Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "SignIn.cshtml",
-              "DocumentMoniker": "C:\\Users\\troyk\\source\\repos\\AgriEnergy\\Views\\Authentication\\SignIn.cshtml",
-              "RelativeDocumentMoniker": "Views\\Authentication\\SignIn.cshtml",
-              "ToolTip": "C:\\Users\\troyk\\source\\repos\\AgriEnergy\\Views\\Authentication\\SignIn.cshtml",
-              "RelativeToolTip": "Views\\Authentication\\SignIn.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAjAAAA",
+              "DocumentIndex": 7,
+              "Title": "Success.cshtml",
+              "DocumentMoniker": "C:\\Users\\troyk\\source\\repos\\AgriEnergy\\Views\\Employee\\Success.cshtml",
+              "RelativeDocumentMoniker": "Views\\Employee\\Success.cshtml",
+              "ToolTip": "C:\\Users\\troyk\\source\\repos\\AgriEnergy\\Views\\Employee\\Success.cshtml",
+              "RelativeToolTip": "Views\\Employee\\Success.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-08T06:05:35.138Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\troyk\\source\\repos\\AgriEnergy\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\troyk\\source\\repos\\AgriEnergy\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-06T05:53:54.811Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SignUp.cshtml",
-              "DocumentMoniker": "C:\\Users\\troyk\\source\\repos\\AgriEnergy\\Views\\Authentication\\SignUp.cshtml",
-              "RelativeDocumentMoniker": "Views\\Authentication\\SignUp.cshtml",
-              "ToolTip": "C:\\Users\\troyk\\source\\repos\\AgriEnergy\\Views\\Authentication\\SignUp.cshtml",
-              "RelativeToolTip": "Views\\Authentication\\SignUp.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA+AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-08T06:13:51.198Z",
+              "WhenOpened": "2025-05-09T05:48:21.056Z",
               "EditorCaption": ""
             },
             {
@@ -209,14 +224,65 @@
               "RelativeDocumentMoniker": "Models\\Authentication\\RegisterRequestModel.cs",
               "ToolTip": "C:\\Users\\troyk\\source\\repos\\AgriEnergy\\Models\\Authentication\\RegisterRequestModel.cs",
               "RelativeToolTip": "Models\\Authentication\\RegisterRequestModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-08T06:14:38.691Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ApplicationSettings.cs",
+              "DocumentMoniker": "C:\\Users\\troyk\\source\\repos\\AgriEnergy\\ApplicationSettings.cs",
+              "RelativeDocumentMoniker": "ApplicationSettings.cs",
+              "ToolTip": "C:\\Users\\troyk\\source\\repos\\AgriEnergy\\ApplicationSettings.cs",
+              "RelativeToolTip": "ApplicationSettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T05:58:16.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\troyk\\source\\repos\\AgriEnergy\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\troyk\\source\\repos\\AgriEnergy\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-09T05:49:11.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\troyk\\source\\repos\\AgriEnergy\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\troyk\\source\\repos\\AgriEnergy\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T05:57:47.451Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 12,
+              "Title": "SignUp.cshtml",
+              "DocumentMoniker": "C:\\Users\\troyk\\source\\repos\\AgriEnergy\\Views\\Authentication\\SignUp.cshtml",
+              "RelativeDocumentMoniker": "Views\\Authentication\\SignUp.cshtml",
+              "ToolTip": "C:\\Users\\troyk\\source\\repos\\AgriEnergy\\Views\\Authentication\\SignUp.cshtml",
+              "RelativeToolTip": "Views\\Authentication\\SignUp.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-08T06:13:51.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "EnvironmentVariables.cs",
               "DocumentMoniker": "C:\\Users\\troyk\\source\\repos\\AgriEnergy\\EnvironmentVariables.cs",
               "RelativeDocumentMoniker": "EnvironmentVariables.cs",
@@ -228,7 +294,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "AgriEnergyConnectContext.cs",
               "DocumentMoniker": "C:\\Users\\troyk\\source\\repos\\AgriEnergy\\AgriEnergyConnectContext.cs",
               "RelativeDocumentMoniker": "AgriEnergyConnectContext.cs",
@@ -261,7 +327,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\troyk\\source\\repos\\AgriEnergy\\Data\\User.cs",
               "RelativeDocumentMoniker": "Data\\User.cs",

@@ -15,7 +15,7 @@ namespace AgriEnergyConnect.Filters
                 EnvironmentVariables._userRole == null)
             {
                 // If the user is not logged in, redirect to the login page
-                filterContext.Result = new RedirectResult("~/Account/Login");
+                filterContext.Result = new RedirectResult("~/Authentication/SignIn");
                 return;
             }
 

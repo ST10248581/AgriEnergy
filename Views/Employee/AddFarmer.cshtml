@@ -1,0 +1,19 @@
+﻿@model AgriEnergyConnect.Models.Authentication.RegisterRequestModel
+@{
+    ViewData["Title"] = "Add Farmer";
+}
+
+<main class="main-content">
+    <div class="auth-container">
+        <div class="card auth-card">
+            <h1 class="text-center mb-2">Add Farmer</h1>
+            <form method="post" action="/Employee/AddFarmer">
+                <input type="text" name="name" placeholder="Full Name" required />
+                <input type="email" name="email" placeholder="Email" required />
+                <input type="password" name="password" placeholder="Password" required />
+                <input type="password" name="confirmPassword" placeholder="Confirm Password" required />
+                <button type="submit" class="btn w-full mt-2">Sign Up</button>
+            </form>
+        </div>
+    </div>
+</main>

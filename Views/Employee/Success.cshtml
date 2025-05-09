@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "Farmer Added";
+}
+
+<main class="main-content">
+    <div class="auth-container">
+        <div class="card auth-card text-center">
+            <h1 class="mb-2">🎉 Farmer Added Successfully</h1>
+            <p class="mb-3">The farmer has been added to the system. You can now view their profile or add another farmer.</p>
+            <div class="flex flex-col">
+                <a href="/Farmers/List" class="btn mb-2">View All Farmers</a>
+                <a asp-controller="Employee" asp-action="AddFarmer" class="btn">Add Another Farmer</a>
+            </div>
+        </div>
+    </div>
+</main>
+
