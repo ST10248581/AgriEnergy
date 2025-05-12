@@ -29,6 +29,8 @@ namespace AgriEnergyConnect.Controllers.Employees
         {
             try
             {
+                if (EnvironmentVariables._userRoleId != ApplicationSettings._role_employee_id) throw new Exception("You do not have permission to add a farmer. Only employees may add farmers.");
+
                 _authenticationLogic.SignUserUp(request.Name, request.Email, request.Password, ApplicationSettings._role_farmer_id);
                 return RedirectToAction("Success");
             }
