@@ -20,6 +20,7 @@ namespace AgriEnergyConnect.Logic
                           where u.RoleId == ApplicationSettings._role_farmer_id
                           select new FarmerItem
                           {
+                              Id = u.UserId,
                               Email = u.Email,  
                               Name = u.Name,
                           }).ToList();

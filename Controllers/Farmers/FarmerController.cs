@@ -2,6 +2,7 @@
 using AgriEnergyConnect.Logic;
 using AgriEnergyConnect.Models;
 using AgriEnergyConnect.Models.Farmers;
+using Azure.Core;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AgriEnergyConnect.Controllers.Farmers
@@ -36,7 +37,13 @@ namespace AgriEnergyConnect.Controllers.Farmers
             }
             catch (Exception ex)
             {
-                var errorModel = new ErrorViewModel { Message = ex.Message };
+                var errorModel = new ErrorViewModel
+                {
+                    Message = ex.Message,
+                    ControllerAction = "Farmer",
+                    ControllerName = "AddProduct"
+                };
+
                 TempData["ErrorMessage"] = errorModel.Message;
 
                 return RedirectToAction("Error", "Home");
@@ -45,9 +52,50 @@ namespace AgriEnergyConnect.Controllers.Farmers
 
         [HttpGet]
         [AuthenticationFilter]
-        public IActionResult GetProducts()
+        public IActionResult GetFarmerPorducts(int id)
         {
-            return View();
+            try
+            { 
+                var prodList = _farmerLogic.GetFarmerProducts(id);
+                return View("FarmerProducts", prodList);
+            }
+            catch (Exception ex)
+            {
+                var errorModel = new ErrorViewModel 
+                {
+                    Message = ex.Message,
+                    ControllerAction = "Employee",
+                    ControllerName = "GetFarmers" 
+                };
+                TempData["ErrorMessage"] = errorModel.Message;
+
+                return RedirectToAction("Error", "Home");
+            }
+        }
+
+
+        [HttpGet]
+        [AuthenticationFilter]
+        public IActionResult GetAllPorducts()
+        {
+            try
+            {
+                var prodList = _farmerLogic.GetAllProducts();
+                return View("AllProducts", prodList);
+            }
+            catch (Exception ex)
+            {
+                var errorModel = new ErrorViewModel
+                {
+                    Message = ex.Message,
+                    ControllerAction = "Home",
+                    ControllerName = "Index"
+                };
+
+                TempData["ErrorMessage"] = errorModel.Message;
+
+                return RedirectToAction("Error", "Home");
+            }
         }
     }
 }

@@ -4,8 +4,7 @@
 }
 
 <div class="err-container">
-    <div class="card err-card flex flex-col items-center text-center">
-        <h1 class="text-danger mb-2">Error.</h1>
+    <div class="card err-card flex flex-col items-center text-center">   
         <h2 class="text-danger mb-3">An error occurred while processing your request.</h2>
 
         @if (Model.ShowMessage)
@@ -14,5 +13,12 @@
                 @Model.Message
             </p>
         }
+        <button class="btn w-full"
+                asp-area=""
+                asp-controller="@Model.ControllerAction"
+                asp-action="@Model.ControllerName">
+            Okay
+        </button>
+
     </div>
 </div>

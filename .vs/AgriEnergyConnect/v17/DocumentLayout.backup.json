@@ -200,7 +200,7 @@
         "Y": 1,
         "Width": 1534,
         "Height": 814,
-        "WindowState": 0
+        "WindowState": 2
       },
       "DocumentGroups": [
         {
@@ -213,8 +213,8 @@
               "Title": "site.css",
               "DocumentMoniker": "C:\\Development\\Projects\\Other\\AgriEnergy\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Development\\Projects\\Other\\AgriEnergy\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Development\\Projects\\Other\\AgriEnergy\\wwwroot\\css\\site.css*",
+              "RelativeToolTip": "wwwroot\\css\\site.css*",
               "ViewState": "AgIAADgAAAAAAAAAAAAUwFYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-05-13T12:18:59.98Z",

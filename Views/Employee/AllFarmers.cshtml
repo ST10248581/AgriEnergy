@@ -13,7 +13,13 @@
             <div class="card farmer-card">
                 <h2 class="mb-1">@farmer.Name</h2>
                 <p class="text-muted mb-2">@farmer.Email</p>
-                <button class="btn w-full">Contact</button>
+                <button class="btn w-full"
+                        asp-area=""
+                        asp-controller="Farmer"
+                        asp-action="GetFarmerProducts"
+                        asp-route-id="@farmer.Id">
+                    See Products
+                </button>
             </div>
         }
     </div>

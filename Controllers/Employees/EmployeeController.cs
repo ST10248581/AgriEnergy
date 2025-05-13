@@ -38,7 +38,13 @@ namespace AgriEnergyConnect.Controllers.Employees
             }
             catch (Exception ex)
             {
-                var errorModel = new ErrorViewModel { Message = ex.Message };
+                var errorModel = new ErrorViewModel 
+                { 
+                    Message = ex.Message, 
+                    ControllerAction = "Farmer",
+                    ControllerName = "AddFarmer"
+                };
+
                 TempData["ErrorMessage"] = errorModel.Message;
 
                 return RedirectToAction("Error", "Home");
@@ -65,7 +71,12 @@ namespace AgriEnergyConnect.Controllers.Employees
             }
             catch (Exception ex)
             {
-                var errorModel = new ErrorViewModel { Message = ex.Message };
+                var errorModel = new ErrorViewModel
+                {
+                    Message = ex.Message,
+                    ControllerAction = "Farmer",
+                    ControllerName = "GetFarmers"
+                };
                 TempData["ErrorMessage"] = errorModel.Message;
 
                 return RedirectToAction("Error", "Home");

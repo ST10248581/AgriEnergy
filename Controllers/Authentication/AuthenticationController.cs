@@ -33,8 +33,12 @@ namespace AgriEnergyConnect.Controllers.Authentication
             }
             catch (Exception ex)
             {
-                var errorModel = new ErrorViewModel{Message = ex.Message};
-
+                var errorModel = new ErrorViewModel
+                {
+                    Message = ex.Message,
+                    ControllerAction = "Authentication",
+                    ControllerName = "SignIn"
+                };
                 TempData["ErrorMessage"] = errorModel.Message;
 
                 return RedirectToAction("Error", "Home");
@@ -62,7 +66,12 @@ namespace AgriEnergyConnect.Controllers.Authentication
             }
             catch (Exception ex)
             {
-                var errorModel = new ErrorViewModel { Message = ex.Message };
+                var errorModel = new ErrorViewModel
+                {
+                    Message = ex.Message,
+                    ControllerAction = "Authentication",
+                    ControllerName = "SignUp"
+                };
 
                 TempData["ErrorMessage"] = errorModel.Message;
 
@@ -85,7 +94,13 @@ namespace AgriEnergyConnect.Controllers.Authentication
             }
             catch (Exception ex)
             {
-                var errorModel = new ErrorViewModel { Message = ex.Message };
+                var errorModel = new ErrorViewModel
+                {
+                    Message = ex.Message,
+                    ControllerAction = "Authentication",
+                    ControllerName = "SignOut"
+                };
+
                 TempData["ErrorMessage"] = errorModel.Message;
                 return RedirectToAction("Error", "Home");
             }    
