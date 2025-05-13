@@ -10,10 +10,12 @@ namespace AgriEnergyConnect.Controllers.Employees
     public class EmployeeController : Controller
     {
         private AuthenticationLogic _authenticationLogic;
+        private EmployeeLogic _employeeLogic;   
 
         public EmployeeController()
         {
             _authenticationLogic = new AuthenticationLogic();
+            _employeeLogic = new EmployeeLogic();
         }
 
         [HttpGet]
@@ -48,6 +50,26 @@ namespace AgriEnergyConnect.Controllers.Employees
         public IActionResult Success()
         {
             return View();
+        }
+
+        [HttpGet]
+        [AuthenticationFilter]
+        public IActionResult GetFarmers()
+        {
+            try
+            {
+               if (EnvironmentVariables._userRoleId != ApplicationSettings._role_employee_id) throw new Exception("You do not have permission to view farmers. Only employees may view farmers.");
+
+                var farmers = _employeeLogic.GetAllFarmers();
+               return View("AllFarmers", farmers);
+            }
+            catch (Exception ex)
+            {
+                var errorModel = new ErrorViewModel { Message = ex.Message };
+                TempData["ErrorMessage"] = errorModel.Message;
+
+                return RedirectToAction("Error", "Home");
+            }
         }
     }
 }

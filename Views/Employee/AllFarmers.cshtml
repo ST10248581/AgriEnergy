@@ -1,0 +1,20 @@
+﻿@model AgriEnergyConnect.Models.Employees.FarmerListResultModel
+
+@{
+    ViewData["Title"] = "All Farmers";
+}
+
+<div class="container mt-3">
+    <h1 class="text-center mb-3">All Farmers</h1>
+
+    <div class="grid grid-cols-3">
+        @foreach (var farmer in Model.Farmers)
+        {
+            <div class="card farmer-card">
+                <h2 class="mb-1">@farmer.Name</h2>
+                <p class="text-muted mb-2">@farmer.Email</p>
+                <button class="btn w-full">Contact</button>
+            </div>
+        }
+    </div>
+</div>

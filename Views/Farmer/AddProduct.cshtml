@@ -1,5 +1,19 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@model AgriEnergyConnect.Models.Farmers.ProductAddRequestModel
 @{
+    ViewData["Title"] = "Add Product";
 }
+
+<main class="main-content">
+    <div class="auth-container">
+        <div class="card auth-card">
+            <h1 class="text-center mb-2">Add Product</h1>
+            <form method="post" action="/Farmer/AddProduct">
+                <input type="text" name="productName" placeholder="Product Name" required />
+                <input type="text" name="description" placeholder="Description" required />
+                <input type="text" name="type" placeholder="Product Type" required />
+                <input type="number" name="Price" placeholder="Product Price" required />
+                <button type="submit" class="btn w-full mt-2">Add Product</button>
+            </form>
+        </div>
+    </div>
+</main>

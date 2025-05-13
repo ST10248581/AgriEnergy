@@ -30,9 +30,9 @@ namespace AgriEnergyConnect.Controllers.Farmers
             {
                 if (EnvironmentVariables._userRoleId != ApplicationSettings._role_farmer_id) throw new Exception("You do not have permission to add a product. Only farmers may add products.");
 
-                _farmerLogic.AddMarketPlaceItem(request.ProductName, request.Description, request.Type, request.Price);
+               _farmerLogic.AddMarketPlaceItem(request.ProductName, request.Description, request.Type, request.Price);
 
-                return RedirectToAction("Success");
+                return View("Success");
             }
             catch (Exception ex)
             {
@@ -41,6 +41,13 @@ namespace AgriEnergyConnect.Controllers.Farmers
 
                 return RedirectToAction("Error", "Home");
             }
+        }
+
+        [HttpGet]
+        [AuthenticationFilter]
+        public IActionResult GetProducts()
+        {
+            return View();
         }
     }
 }
