@@ -1,32 +1,81 @@
+
 ﻿<!--Reference: https://learn.microsoft.com/en-us/aspnet/core/mvc/views/overview?view=aspnetcore-9.0-->
 <!-- Hero Section -->
-<section class="container mt-3 text-center">
-    <div class="card">
-        <h1 class="mb-2">Empowering Farmers. Connecting Markets.</h1>
-        <p class="mb-2">Sell your produce, share knowledge, and build a sustainable future.</p>
-        <a href="/marketplace" class="button mt-2">Get Started</a>
-    </div>
-    <div class="card">
-        <h3>🌽 Sell Products</h3>
-        <p>Upload your crops and farm goods for sale.</p>
-    </div>
-    <div class="card">
-        <h3>📘 Share Resources</h3>
-        <p>Upload and explore farming guides, tips, and data.</p>
-    </div>
-    <div class="card">
-        <h3>🌍 Connect</h3>
-        <p>Find local markets and other farmers nearby.</p>
+
+﻿@{
+    ViewData["Title"] = "Home";
+}
+<section class="hero">
+    <div class="hero-content">
+        <h1>Connecting Farmers with Renewable Energy Solutions</h1>
+        <p class="hero-subtitle">Sustainable farming meets clean energy for a greener tomorrow</p>
+        <div class="hero-actions">
+            <a class="btn btn-primary" asp-controller="Authentication" asp-action="SignUp">Join Now</a>
+            <a class="btn btn-secondary" href="#how-it-works">Learn More</a>
+        </div>
     </div>
 </section>
 
-<!-- Features Section -->
-<section class="container mt-4 grid feature-grid">
-    
+<section id="how-it-works" class="features-section">
+    <h2 class="section-title">How AgriEnergyConnect Works</h2>
+
+    <div class="features-grid">
+        <div class="feature-card">
+            <div class="feature-icon">🌱</div>
+            <h3>For Farmers</h3>
+            <p>List your agricultural products and connect with energy companies looking for biofuel sources.</p>
+            <a class="btn btn-sm" asp-controller="Farmer" asp-action="AddProduct">Add Products</a>
+        </div>
+
+        <div class="feature-card">
+            <div class="feature-icon">⚡</div>
+            <h3>For Energy Companies</h3>
+            <p>Discover reliable sources of agricultural products for renewable energy production.</p>
+            <a class="btn btn-sm" asp-controller="Employee" asp-action="GetFarmers">Find Farmers</a>
+        </div>
+
+        <div class="feature-card">
+            <div class="feature-icon">🌍</div>
+            <h3>For Communities</h3>
+            <p>Support local sustainable initiatives that reduce carbon footprint and create jobs.</p>
+            <a class="btn btn-sm" asp-controller="Home" asp-action="Privacy">Learn More</a>
+        </div>
+    </div>
 </section>
 
-<!-- CTA Section -->
-<section class="container mt-4 text-center">
-    <h2 class="mb-2">Ready to grow your farming network?</h2>
-    <a href="/signup" class="button mt-2">Join Now</a>
+<section class="stats-section">
+    <div class="stats-container">
+        <div class="stat-item">
+            <span class="stat-number">500+</span>
+            <span class="stat-label">Farmers Registered</span>
+        </div>
+        <div class="stat-item">
+            <span class="stat-number">1,200</span>
+            <span class="stat-label">Products Listed</span>
+        </div>
+        <div class="stat-item">
+            <span class="stat-number">50+</span>
+            <span class="stat-label">Energy Partners</span>
+        </div>
+    </div>
 </section>
+
+<section class="cta-section">
+    <div class="cta-content">
+        <h2>Ready to Transform Agriculture and Energy?</h2>
+        <p>Join our growing network of farmers and energy companies creating a sustainable future together.</p>
+        <div class="cta-buttons">
+            <a class="btn btn-primary" asp-controller="Authentication" asp-action="SignUp">Create Account</a>
+            <a class="btn btn-secondary" asp-controller="Authentication" asp-action="SignIn">Sign In</a>
+        </div>
+    </div>
+</section>
+
+@section Scripts {
+    <script>
+        // Any additional JavaScript can go here
+        document.addEventListener('DOMContentLoaded', function () {
+            console.log('Home page loaded');
+        });
+    </script>
+}

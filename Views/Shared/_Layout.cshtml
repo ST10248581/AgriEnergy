@@ -60,7 +60,7 @@
                             <button class="dropbtn">Farmer</button>
                             <div class="dropdown-content">
                                 <a class="nav-link" asp-area="" asp-controller="Farmer" asp-action="AddProduct">Add Product</a>
-                                <a class="nav-link" asp-area="" asp-controller="Farmer" asp-action="GetAllProduct">All Product</a>
+                                <a class="nav-link" asp-area="" asp-controller="Farmer" asp-action="GetAllProducts">All Products</a>
                             </div>
                         </div>
                     </div>
@@ -69,19 +69,13 @@
             </nav>
         </header>
 
-        <div class="container">
-            <main role="main" class="main-content">
-                @RenderBody()
-            </main>
-        </div>
-
-        <footer class="footer">
+        <main role="main" class="main-content">
             <div class="container">
-                &copy; 2025 - AgriEnergyConnect -
-                <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                @RenderBody()
             </div>
-        </footer>
+        </main>
     </div>
+
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>

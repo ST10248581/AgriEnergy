@@ -8,19 +8,16 @@
 <div class="container mt-3">
     <h1 class="text-center mb-3">All Farmers</h1>
 
-    <div class="grid grid-cols-3">
+    <div class="flex flex-row flex-wrap justify-center">
         @foreach (var farmer in Model.Farmers)
         {
             <div class="card farmer-card">
                 <h2 class="mb-1">@farmer.Name</h2>
                 <p class="text-muted mb-2">@farmer.Email</p>
-                <button class="btn w-full"
-                        asp-area=""
-                        asp-controller="Farmer"
-                        asp-action="GetFarmerProducts"
-                        asp-route-id="@farmer.Id">
-                    See Products
-                </button>
+                <form method="post" asp-controller="Farmer" asp-action="GetFarmerProducts">
+                    <input type="hidden" name="id" value="@farmer.Id" />
+                    <button type="submit" class="btn w-full">See Products</button>
+                </form>
             </div>
         }
     </div>

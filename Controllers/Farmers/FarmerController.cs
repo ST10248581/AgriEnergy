@@ -50,9 +50,9 @@ namespace AgriEnergyConnect.Controllers.Farmers
             }
         }
 
-        [HttpGet]
+        [HttpPost]
         [AuthenticationFilter]
-        public IActionResult GetFarmerPorducts(int id)
+        public IActionResult GetFarmerProducts(int id)
         {
             try
             { 
@@ -76,7 +76,7 @@ namespace AgriEnergyConnect.Controllers.Farmers
 
         [HttpGet]
         [AuthenticationFilter]
-        public IActionResult GetAllPorducts()
+        public IActionResult GetAllProducts()
         {
             try
             {

@@ -52,6 +52,7 @@ namespace AgriEnergyConnect.Logic
                                 where p.ProviderId == farmer.UserId
                                 select new ProductItem
                                 {
+                                    Id = p.ItemId,
                                     ProductName = p.Name,
                                     Description = p.Description,
                                     Type = p.Type,

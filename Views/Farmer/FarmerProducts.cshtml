@@ -2,21 +2,125 @@
 @model AgriEnergyConnect.Models.Farmers.ProductListResultModel
 
 @{
-    ViewData["Title"] = Model.FarmerName + " Products";
+    ViewData["Title"] = $"{Model.FarmerName} Products";
 }
 
 <div class="container mt-3">
-    <h1 class="text-center mb-3">All Farmers</h1>
+    <h1 class="text-center mb-4">@Model.FarmerName's Products</h1>
 
-    <div class="grid grid-cols-3">
-        @foreach (var p in Model.Products)
+    <!-- Filters -->
+    <div class="row mb-3">
+        <div class="col-md-4">
+            <label for="priceRange">Max Price ($<span id="priceValue">1000</span>):</label>
+            <input type="range" id="priceRange" min="0" max="1000" value="1000" step="10" class="form-range" />
+        </div>
+        <div class="col-md-4">
+            <label for="productType">Product Type:</label>
+            <select id="productType" class="form-select">
+                <option value="">All</option>
+                @foreach (var type in Model.Products.Select(p => p.Type).Distinct())
+                {
+                    <option value="@type">@type</option>
+                }
+            </select>
+        </div>
+        <div class="col-md-4">
+            <label for="sortBy">Sort By:</label>
+            <select id="sortBy" class="form-select">
+                <option value="asc">Price: Low to High</option>
+                <option value="desc">Price: High to Low</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="mb-3">
+        <button id="applyFilters" class="btn btn-primary">Apply Filters</button>
+        <button id="resetFilters" class="btn btn-secondary ms-2">Reset</button>
+    </div>
+
+    <!-- Product List -->
+    <div class="row" id="productContainer">
+        @foreach (var product in Model.Products)
         {
-            <div class="card farmer-card">
-                <h2 class="mb-1">@p.ProductName</h2>
-                <p class="text-muted mb-2">@p.Description</p>
-                <p class="text-muted mb-2">@p.Type</p>
-                <p class="text-muted mb-2">@p.Price</p>
+            <div class="col-md-4 mb-4 product-card"
+                 data-price="@product.Price"
+                 data-type="@product.Type.ToLower().Trim()">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">@product.ProductName</h5>
+                        <p class="card-text">@product.Description</p>
+                        <p class="card-text"><small>Type: @product.Type</small></p>
+                        <p class="card-text"><strong>Price: $@product.Price</strong></p>
+                    </div>
+                </div>
             </div>
         }
     </div>
+
+    <div class="alert alert-info text-center mt-3" id="noProductsMessage" style="display: none;">
+        No products match your filter criteria.
+    </div>
 </div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const priceRange = document.getElementById('priceRange');
+        const priceValue = document.getElementById('priceValue');
+        const productType = document.getElementById('productType');
+        const sortBy = document.getElementById('sortBy');
+        const applyFilters = document.getElementById('applyFilters');
+        const resetFilters = document.getElementById('resetFilters');
+        const container = document.getElementById('productContainer');
+        const noProducts = document.getElementById('noProductsMessage');
+
+        const allCards = Array.from(container.querySelectorAll('.product-card'));
+
+        priceRange.addEventListener('input', () => {
+            priceValue.textContent = priceRange.value;
+        });
+
+        applyFilters.addEventListener('click', () => {
+            const maxPrice = parseFloat(priceRange.value);
+            const selectedType = productType.value.toLowerCase().trim();
+            const sortOption = sortBy.value;
+
+            let visibleCards = allCards.filter(card => {
+                const price = parseFloat(card.dataset.price);
+                const type = card.dataset.type.toLowerCase().trim();
+                return price <= maxPrice && (selectedType === '' || type === selectedType);
+            });
+
+            if (sortOption === 'asc') {
+                visibleCards.sort((a, b) => parseFloat(a.dataset.price) - parseFloat(b.dataset.price));
+            } else {
+                visibleCards.sort((a, b) => parseFloat(b.dataset.price) - parseFloat(a.dataset.price));
+            }
+
+            // Clear and rebuild container
+            container.innerHTML = '';
+            if (visibleCards.length === 0) {
+                noProducts.style.display = 'block';
+            } else {
+                noProducts.style.display = 'none';
+                visibleCards.forEach(card => {
+                    card.style.display = 'block';
+                    container.appendChild(card);
+                });
+            }
+        });
+
+        resetFilters.addEventListener('click', () => {
+            priceRange.value = 1000;
+            priceValue.textContent = '1000';
+            productType.value = '';
+            sortBy.value = 'asc';
+            noProducts.style.display = 'none';
+
+            container.innerHTML = '';
+            allCards.forEach(card => {
+                card.style.display = 'block';
+                container.appendChild(card);
+            });
+        });
+    });
+</script>
