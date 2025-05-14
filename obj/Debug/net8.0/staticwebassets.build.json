@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "wOc1fczApSeG26J5rH8UXLCc7XXK/i0BWAYdspvMh/I=",
+  "Hash": "F7MpqlEt6lXDg+fDunWLMeB/UDWX/m7ocLyItE2HPDc=",
   "Source": "AgriEnergyConnect",
   "BasePath": "_content/AgriEnergyConnect",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "netn6z03pg",
-      "Integrity": "n+ZCqslVLAZhcXsVcQUkawmWVkpKWq9Lbuw5Zs/mGFQ=",
+      "Fingerprint": "cewkqsqr1z",
+      "Integrity": "BIsIp1L7lcEMwT3O5sEtSrNAp5jT6HQtVcN+YIM3bdc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -1506,6 +1506,51 @@
       ]
     },
     {
+      "Route": "css/site.cewkqsqr1z.css",
+      "AssetFile": "C:\\Development\\Projects\\Other\\AgriEnergy\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7435"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BIsIp1L7lcEMwT3O5sEtSrNAp5jT6HQtVcN+YIM3bdc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 14 May 2025 11:45:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cewkqsqr1z"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BIsIp1L7lcEMwT3O5sEtSrNAp5jT6HQtVcN+YIM3bdc="
+        }
+      ]
+    },
+    {
       "Route": "css/site.css",
       "AssetFile": "C:\\Development\\Projects\\Other\\AgriEnergy\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -1516,7 +1561,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7035"
+          "Value": "7435"
         },
         {
           "Name": "Content-Type",
@@ -1524,11 +1569,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"n+ZCqslVLAZhcXsVcQUkawmWVkpKWq9Lbuw5Zs/mGFQ=\""
+          "Value": "\"BIsIp1L7lcEMwT3O5sEtSrNAp5jT6HQtVcN+YIM3bdc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 14 May 2025 07:11:00 GMT"
+          "Value": "Wed, 14 May 2025 11:45:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1538,52 +1583,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-n+ZCqslVLAZhcXsVcQUkawmWVkpKWq9Lbuw5Zs/mGFQ="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.netn6z03pg.css",
-      "AssetFile": "C:\\Development\\Projects\\Other\\AgriEnergy\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "7035"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"n+ZCqslVLAZhcXsVcQUkawmWVkpKWq9Lbuw5Zs/mGFQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 14 May 2025 07:11:00 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "netn6z03pg"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-n+ZCqslVLAZhcXsVcQUkawmWVkpKWq9Lbuw5Zs/mGFQ="
+          "Value": "sha256-BIsIp1L7lcEMwT3O5sEtSrNAp5jT6HQtVcN+YIM3bdc="
         }
       ]
     },
