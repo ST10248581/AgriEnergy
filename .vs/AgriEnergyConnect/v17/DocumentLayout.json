@@ -3,22 +3,6 @@
   "WorkspaceRootPath": "C:\\Development\\Projects\\Other\\AgriEnergy\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E131A1F9-F0DF-4D70-B046-AE821CD46D25}|AgriEnergyConnect.csproj|c:\\development\\projects\\other\\agrienergy\\views\\farmer\\farmerproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E131A1F9-F0DF-4D70-B046-AE821CD46D25}|AgriEnergyConnect.csproj|solutionrelative:views\\farmer\\farmerproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E131A1F9-F0DF-4D70-B046-AE821CD46D25}|AgriEnergyConnect.csproj|c:\\development\\projects\\other\\agrienergy\\views\\employee\\allfarmers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E131A1F9-F0DF-4D70-B046-AE821CD46D25}|AgriEnergyConnect.csproj|solutionrelative:views\\employee\\allfarmers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E131A1F9-F0DF-4D70-B046-AE821CD46D25}|AgriEnergyConnect.csproj|c:\\development\\projects\\other\\agrienergy\\controllers\\farmers\\farmercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E131A1F9-F0DF-4D70-B046-AE821CD46D25}|AgriEnergyConnect.csproj|solutionrelative:controllers\\farmers\\farmercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E131A1F9-F0DF-4D70-B046-AE821CD46D25}|AgriEnergyConnect.csproj|c:\\development\\projects\\other\\agrienergy\\logic\\farmerlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E131A1F9-F0DF-4D70-B046-AE821CD46D25}|AgriEnergyConnect.csproj|solutionrelative:logic\\farmerlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E131A1F9-F0DF-4D70-B046-AE821CD46D25}|AgriEnergyConnect.csproj|c:\\development\\projects\\other\\agrienergy\\controllers\\employees\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E131A1F9-F0DF-4D70-B046-AE821CD46D25}|AgriEnergyConnect.csproj|solutionrelative:controllers\\employees\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -51,6 +35,10 @@
       "RelativeMoniker": "D:0:0:{E131A1F9-F0DF-4D70-B046-AE821CD46D25}|AgriEnergyConnect.csproj|solutionrelative:views\\farmer\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E131A1F9-F0DF-4D70-B046-AE821CD46D25}|AgriEnergyConnect.csproj|c:\\development\\projects\\other\\agrienergy\\views\\farmer\\farmerproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E131A1F9-F0DF-4D70-B046-AE821CD46D25}|AgriEnergyConnect.csproj|solutionrelative:views\\farmer\\farmerproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E131A1F9-F0DF-4D70-B046-AE821CD46D25}|AgriEnergyConnect.csproj|c:\\development\\projects\\other\\agrienergy\\views\\farmer\\allproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E131A1F9-F0DF-4D70-B046-AE821CD46D25}|AgriEnergyConnect.csproj|solutionrelative:views\\farmer\\allproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -61,6 +49,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{E131A1F9-F0DF-4D70-B046-AE821CD46D25}|AgriEnergyConnect.csproj|c:\\development\\projects\\other\\agrienergy\\views\\employee\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E131A1F9-F0DF-4D70-B046-AE821CD46D25}|AgriEnergyConnect.csproj|solutionrelative:views\\employee\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E131A1F9-F0DF-4D70-B046-AE821CD46D25}|AgriEnergyConnect.csproj|c:\\development\\projects\\other\\agrienergy\\views\\employee\\allfarmers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E131A1F9-F0DF-4D70-B046-AE821CD46D25}|AgriEnergyConnect.csproj|solutionrelative:views\\employee\\allfarmers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E131A1F9-F0DF-4D70-B046-AE821CD46D25}|AgriEnergyConnect.csproj|c:\\development\\projects\\other\\agrienergy\\views\\employee\\addfarmer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -106,20 +98,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FarmerLogic.cs",
-              "DocumentMoniker": "C:\\Development\\Projects\\Other\\AgriEnergy\\Logic\\FarmerLogic.cs",
-              "RelativeDocumentMoniker": "Logic\\FarmerLogic.cs",
-              "ToolTip": "C:\\Development\\Projects\\Other\\AgriEnergy\\Logic\\FarmerLogic.cs",
-              "RelativeToolTip": "Logic\\FarmerLogic.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T12:01:45.649Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "Error.cshtml",
               "DocumentMoniker": "C:\\Development\\Projects\\Other\\AgriEnergy\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
@@ -127,11 +106,12 @@
               "RelativeToolTip": "Views\\Shared\\Error.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-14T11:33:04.397Z"
+              "WhenOpened": "2025-05-14T11:33:04.397Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Development\\Projects\\Other\\AgriEnergy\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -139,11 +119,12 @@
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-14T11:32:57.786Z"
+              "WhenOpened": "2025-05-14T11:32:57.786Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\Development\\Projects\\Other\\AgriEnergy\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
@@ -151,11 +132,12 @@
               "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-14T11:32:52.084Z"
+              "WhenOpened": "2025-05-14T11:32:52.084Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 6,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Development\\Projects\\Other\\AgriEnergy\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
@@ -163,11 +145,12 @@
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-14T11:32:48.526Z"
+              "WhenOpened": "2025-05-14T11:32:48.526Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 7,
               "Title": "Success.cshtml",
               "DocumentMoniker": "C:\\Development\\Projects\\Other\\AgriEnergy\\Views\\Farmer\\Success.cshtml",
               "RelativeDocumentMoniker": "Views\\Farmer\\Success.cshtml",
@@ -175,11 +158,12 @@
               "RelativeToolTip": "Views\\Farmer\\Success.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-14T11:32:42.111Z"
+              "WhenOpened": "2025-05-14T11:32:42.111Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 9,
               "Title": "AllProducts.cshtml",
               "DocumentMoniker": "C:\\Development\\Projects\\Other\\AgriEnergy\\Views\\Farmer\\AllProducts.cshtml",
               "RelativeDocumentMoniker": "Views\\Farmer\\AllProducts.cshtml",
@@ -187,11 +171,12 @@
               "RelativeToolTip": "Views\\Farmer\\AllProducts.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-14T11:32:31.524Z"
+              "WhenOpened": "2025-05-14T11:32:31.524Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 11,
               "Title": "Success.cshtml",
               "DocumentMoniker": "C:\\Development\\Projects\\Other\\AgriEnergy\\Views\\Employee\\Success.cshtml",
               "RelativeDocumentMoniker": "Views\\Employee\\Success.cshtml",
@@ -199,37 +184,38 @@
               "RelativeToolTip": "Views\\Employee\\Success.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-14T11:32:21.304Z"
+              "WhenOpened": "2025-05-14T11:32:21.304Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 12,
               "Title": "AllFarmers.cshtml",
               "DocumentMoniker": "C:\\Development\\Projects\\Other\\AgriEnergy\\Views\\Employee\\AllFarmers.cshtml",
               "RelativeDocumentMoniker": "Views\\Employee\\AllFarmers.cshtml",
               "ToolTip": "C:\\Development\\Projects\\Other\\AgriEnergy\\Views\\Employee\\AllFarmers.cshtml",
               "RelativeToolTip": "Views\\Employee\\AllFarmers.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-14T11:32:17.026Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "FarmerProducts.cshtml",
               "DocumentMoniker": "C:\\Development\\Projects\\Other\\AgriEnergy\\Views\\Farmer\\FarmerProducts.cshtml",
               "RelativeDocumentMoniker": "Views\\Farmer\\FarmerProducts.cshtml",
               "ToolTip": "C:\\Development\\Projects\\Other\\AgriEnergy\\Views\\Farmer\\FarmerProducts.cshtml",
               "RelativeToolTip": "Views\\Farmer\\FarmerProducts.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-14T11:26:57.422Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Development\\Projects\\Other\\AgriEnergy\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
@@ -237,24 +223,25 @@
               "RelativeToolTip": "wwwroot\\css\\site.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAACOAQAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-05-14T11:07:35.508Z"
+              "WhenOpened": "2025-05-14T11:07:35.508Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "EmployeeController.cs",
               "DocumentMoniker": "C:\\Development\\Projects\\Other\\AgriEnergy\\Controllers\\Employees\\EmployeeController.cs",
               "RelativeDocumentMoniker": "Controllers\\Employees\\EmployeeController.cs",
               "ToolTip": "C:\\Development\\Projects\\Other\\AgriEnergy\\Controllers\\Employees\\EmployeeController.cs",
               "RelativeToolTip": "Controllers\\Employees\\EmployeeController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAFQAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-14T11:01:49.401Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 15,
               "Title": "SignIn.cshtml",
               "DocumentMoniker": "C:\\Development\\Projects\\Other\\AgriEnergy\\Views\\Authentication\\SignIn.cshtml",
               "RelativeDocumentMoniker": "Views\\Authentication\\SignIn.cshtml",
@@ -262,11 +249,12 @@
               "RelativeToolTip": "Views\\Authentication\\SignIn.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-14T11:31:45.739Z"
+              "WhenOpened": "2025-05-14T11:31:45.739Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\Development\\Projects\\Other\\AgriEnergy\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -274,11 +262,12 @@
               "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-14T10:49:26.108Z"
+              "WhenOpened": "2025-05-14T10:49:26.108Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 19,
               "Title": "RegisterRequestModel.cs",
               "DocumentMoniker": "C:\\Development\\Projects\\Other\\AgriEnergy\\Models\\Authentication\\RegisterRequestModel.cs",
               "RelativeDocumentMoniker": "Models\\Authentication\\RegisterRequestModel.cs",
@@ -290,7 +279,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 18,
               "Title": "AddFarmerRequestModel.cs",
               "DocumentMoniker": "C:\\Development\\Projects\\Other\\AgriEnergy\\Models\\Employees\\AddFarmerRequestModel.cs",
               "RelativeDocumentMoniker": "Models\\Employees\\AddFarmerRequestModel.cs",
@@ -302,7 +291,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 16,
               "Title": "EmployeeLogic.cs",
               "DocumentMoniker": "C:\\Development\\Projects\\Other\\AgriEnergy\\Logic\\EmployeeLogic.cs",
               "RelativeDocumentMoniker": "Logic\\EmployeeLogic.cs",
@@ -314,7 +303,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 10,
               "Title": "AddProduct.cshtml",
               "DocumentMoniker": "C:\\Development\\Projects\\Other\\AgriEnergy\\Views\\Farmer\\AddProduct.cshtml",
               "RelativeDocumentMoniker": "Views\\Farmer\\AddProduct.cshtml",
@@ -322,11 +311,12 @@
               "RelativeToolTip": "Views\\Farmer\\AddProduct.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-14T10:51:05.583Z"
+              "WhenOpened": "2025-05-14T10:51:05.583Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 20,
               "Title": "AuthenticationLogic.cs",
               "DocumentMoniker": "C:\\Development\\Projects\\Other\\AgriEnergy\\Logic\\AuthenticationLogic.cs",
               "RelativeDocumentMoniker": "Logic\\AuthenticationLogic.cs",
@@ -338,7 +328,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 14,
               "Title": "SignUp.cshtml",
               "DocumentMoniker": "C:\\Development\\Projects\\Other\\AgriEnergy\\Views\\Authentication\\SignUp.cshtml",
               "RelativeDocumentMoniker": "Views\\Authentication\\SignUp.cshtml",
@@ -346,11 +336,12 @@
               "RelativeToolTip": "Views\\Authentication\\SignUp.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-14T10:45:06.597Z"
+              "WhenOpened": "2025-05-14T10:45:06.597Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 13,
               "Title": "AddFarmer.cshtml",
               "DocumentMoniker": "C:\\Development\\Projects\\Other\\AgriEnergy\\Views\\Employee\\AddFarmer.cshtml",
               "RelativeDocumentMoniker": "Views\\Employee\\AddFarmer.cshtml",
@@ -358,7 +349,8 @@
               "RelativeToolTip": "Views\\Employee\\AddFarmer.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-14T10:49:38.759Z"
+              "WhenOpened": "2025-05-14T10:49:38.759Z",
+              "EditorCaption": ""
             }
           ]
         }
@@ -383,7 +375,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 17,
               "Title": "FarmerListResultModel.cs",
               "DocumentMoniker": "C:\\Development\\Projects\\Other\\AgriEnergy\\Models\\Employees\\FarmerListResultModel.cs",
               "RelativeDocumentMoniker": "Models\\Employees\\FarmerListResultModel.cs",
@@ -392,40 +384,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-14T10:55:01.961Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "b35d3d84-4555-48cf-aa30-954675d557b5",
-        "Display": 1,
-        "X": -5,
-        "Y": 26,
-        "Width": 1546,
-        "Height": 795,
-        "WindowState": 2
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FarmerController.cs",
-              "DocumentMoniker": "C:\\Development\\Projects\\Other\\AgriEnergy\\Controllers\\Farmers\\FarmerController.cs",
-              "RelativeDocumentMoniker": "Controllers\\Farmers\\FarmerController.cs",
-              "ToolTip": "C:\\Development\\Projects\\Other\\AgriEnergy\\Controllers\\Farmers\\FarmerController.cs",
-              "RelativeToolTip": "Controllers\\Farmers\\FarmerController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAYwDYAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T12:01:54.42Z",
               "EditorCaption": ""
             }
           ]
