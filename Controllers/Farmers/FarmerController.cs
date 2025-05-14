@@ -52,11 +52,16 @@ namespace AgriEnergyConnect.Controllers.Farmers
 
         [HttpGet]
         [AuthenticationFilter]
-        public IActionResult GetFarmerPorducts(int id)
+        public IActionResult GetFarmerPorducts(int id, string? type, int? range)
         {
             try
             { 
                 var prodList = _farmerLogic.GetFarmerProducts(id);
+
+                if (type != null) prodList.Products = prodList.Products.Where(p => p.Type.ToLower() == type.ToLower()).ToList();
+               
+                if (range != null) prodList.Products = prodList.Products.Where(p => p.Price <= range).ToList();
+
                 return View("FarmerProducts", prodList);
             }
             catch (Exception ex)
