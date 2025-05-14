@@ -66,8 +66,7 @@
               "RelativeToolTip": "Views\\Farmer\\Success.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-13T12:37:44.776Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-13T12:37:44.776Z"
             },
             {
               "$type": "Document",
@@ -79,8 +78,7 @@
               "RelativeToolTip": "Views\\Farmer\\FarmerProducts.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-13T12:37:43.768Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-13T12:37:43.768Z"
             },
             {
               "$type": "Document",
@@ -92,8 +90,7 @@
               "RelativeToolTip": "Views\\Farmer\\AllProducts.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-13T12:37:40.727Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-13T12:37:40.727Z"
             },
             {
               "$type": "Document",
@@ -105,8 +102,7 @@
               "RelativeToolTip": "Views\\Farmer\\AddProduct.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-13T12:37:35.733Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-13T12:37:35.733Z"
             },
             {
               "$type": "Document",
@@ -118,8 +114,7 @@
               "RelativeToolTip": "Views\\Employee\\Success.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-13T12:37:26.708Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-13T12:37:26.708Z"
             },
             {
               "$type": "Document",
@@ -131,8 +126,7 @@
               "RelativeToolTip": "Views\\Employee\\AllFarmers.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-13T12:37:21.862Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-13T12:37:21.862Z"
             },
             {
               "$type": "Document",
@@ -144,8 +138,7 @@
               "RelativeToolTip": "Views\\Employee\\AddFarmer.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-13T12:37:11.362Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-13T12:37:11.362Z"
             },
             {
               "$type": "Document",
@@ -155,7 +148,7 @@
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Development\\Projects\\Other\\AgriEnergy\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAwwDEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAIwBgAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-13T12:30:41.919Z",
               "EditorCaption": ""
@@ -170,8 +163,7 @@
               "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
               "ViewState": "AgIAAD0AAAAAAAAAAADwv2UAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-13T12:28:05.482Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-13T12:28:05.482Z"
             },
             {
               "$type": "Document",
@@ -183,8 +175,7 @@
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-13T12:23:40.74Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-13T12:23:40.74Z"
             }
           ]
         }
@@ -196,7 +187,7 @@
       "FloatingWindowState": {
         "Id": "83f48c6d-5507-4975-b537-b185ef00f916",
         "Display": 1,
-        "X": 1,
+        "X": 2,
         "Y": 1,
         "Width": 1534,
         "Height": 814,
@@ -215,7 +206,7 @@
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
               "ToolTip": "C:\\Development\\Projects\\Other\\AgriEnergy\\wwwroot\\css\\site.css",
               "RelativeToolTip": "wwwroot\\css\\site.css",
-              "ViewState": "AgIAADgAAAAAAAAAAAAUwFYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAADoBAAAAAAAAAAAiwFYBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-05-13T12:18:59.98Z",
               "EditorCaption": ""
