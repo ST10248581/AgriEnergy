@@ -12,5 +12,7 @@ namespace AgriEnergyConnect.Models.Employees
         public int Id { get; set; }
         public string Name { get; set; }
         public string Email { get; set; }
+        public string FarmName { get; set; }
+        public string FarmingType { get; set; }
     }
 }

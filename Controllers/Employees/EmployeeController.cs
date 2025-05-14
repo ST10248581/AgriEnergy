@@ -2,6 +2,7 @@
 using AgriEnergyConnect.Logic;
 using AgriEnergyConnect.Models;
 using AgriEnergyConnect.Models.Authentication;
+using AgriEnergyConnect.Models.Employees;
 using Azure.Core;
 using Microsoft.AspNetCore.Mvc;
 
@@ -27,13 +28,13 @@ namespace AgriEnergyConnect.Controllers.Employees
 
         [HttpPost]
         [AuthenticationFilter]
-        public IActionResult AddFarmer(RegisterRequestModel request)
+        public IActionResult AddFarmer(AddFarmerRequestModel request)
         {
             try
             {
                 if (EnvironmentVariables._userRoleId != ApplicationSettings._role_employee_id) throw new Exception("You do not have permission to add a farmer. Only employees may add farmers.");
 
-                _authenticationLogic.SignUserUp(request.Name, request.Email, request.Password, ApplicationSettings._role_farmer_id);
+                _employeeLogic.SignUserUp(request.Name, request.Email, request.Password, ApplicationSettings._role_farmer_id, request.FarmName, request.FarmingType);
                 return RedirectToAction("Success");
             }
             catch (Exception ex)

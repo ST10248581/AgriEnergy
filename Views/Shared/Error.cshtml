@@ -13,12 +13,15 @@
                 @Model.Message
             </p>
         }
-        <button class="btn w-full"
-                asp-area=""
-                asp-controller="@Model.ControllerAction"
-                asp-action="@Model.ControllerName">
-            Okay
-        </button>
+        @if (!string.IsNullOrEmpty(Model?.ControllerName) && !string.IsNullOrEmpty(Model?.ControllerAction))
+        {
+            <button class="btn w-full"
+                    asp-area=""
+                    asp-controller="@Model.ControllerName"
+                    asp-action="@Model.ControllerAction">
+                Okay
+            </button>
+        }
 
     </div>
 </div>

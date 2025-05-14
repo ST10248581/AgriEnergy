@@ -2,15 +2,24 @@
 @{
     ViewData["Title"] = "Add Product";
 }
-    <div class="auth-container">
-        <div class="card auth-card">
-            <h1 class="text-center mb-2">Add Product</h1>
-            <form method="post" action="/Farmer/AddProduct">
-                <input type="text" name="productName" placeholder="Product Name" required />
-                <input type="text" name="description" placeholder="Description" required />
-                <input type="text" name="type" placeholder="Product Type" required />
-                <input type="number" name="Price" placeholder="Product Price" required />
-                <button type="submit" class="btn w-full mt-2">Add Product</button>
-            </form>
-        </div>
+<div class="auth-container">
+    <div class="card auth-card">
+        <h1 class="text-center mb-2">Add Product</h1>
+        <form method="post" action="/Farmer/AddProduct">
+            <input type="text" name="productName" placeholder="Product Name"
+                   required minlength="2" />
+
+            <input type="text" name="description" placeholder="Description"
+                   required minlength="5" />
+
+            <input type="text" name="type" placeholder="Product Type"
+                   required minlength="2" />
+
+            <input type="number" name="Price" placeholder="Product Price"
+                   required min="0.01" step="0.01"
+                   title="Enter a valid price greater than 0" />
+
+            <button type="submit" class="btn w-full mt-2">Add Product</button>
+        </form>
     </div>
+</div>

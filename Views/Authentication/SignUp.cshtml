@@ -8,11 +8,17 @@
         <div class="card auth-card">
             <h1 class="text-center mb-2">Sign Up</h1>
             <form method="post" action="/Authentication/SignUp">
-                <input type="text" name="name" placeholder="Full Name" required />
-                <input type="email" name="email" placeholder="Email" required />
-                <input type="password" name="password" placeholder="Password" required />
-                <input type="password" name="confirmPassword" placeholder="Confirm Password" required />
+                <input type="text" name="name" placeholder="Full Name" required minlength="2" />
 
+                <input type="email" name="email" placeholder="Email" required />
+
+                <input type="password" name="password" placeholder="Password"
+                       required minlength="6" pattern=".{6,}"
+                       title="Password must be at least 6 characters" />
+
+                <input type="password" name="confirmPassword" placeholder="Confirm Password"
+                       required minlength="6" pattern=".{6,}"
+                       title="Passwords must match and be at least 6 characters" />
                 <select name="roleId" required>
                     <option value="" disabled selected>Select Role</option>
                     <option value="1">Farmer</option>

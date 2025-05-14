@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rGvhYmwbYXvr85ccHhorBRznT+T2mo2v9OIzhnQ/E58=",
+  "Hash": "wOc1fczApSeG26J5rH8UXLCc7XXK/i0BWAYdspvMh/I=",
   "Source": "AgriEnergyConnect",
   "BasePath": "_content/AgriEnergyConnect",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "xj1q6dgl2y",
-      "Integrity": "XeTMKh9ojOdbmSm14GfcBhxeyaItydCl9YCoyR/Z1BQ=",
+      "Fingerprint": "netn6z03pg",
+      "Integrity": "n+ZCqslVLAZhcXsVcQUkawmWVkpKWq9Lbuw5Zs/mGFQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -1516,7 +1516,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6101"
+          "Value": "7035"
         },
         {
           "Name": "Content-Type",
@@ -1524,11 +1524,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"XeTMKh9ojOdbmSm14GfcBhxeyaItydCl9YCoyR/Z1BQ=\""
+          "Value": "\"n+ZCqslVLAZhcXsVcQUkawmWVkpKWq9Lbuw5Zs/mGFQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 13:08:05 GMT"
+          "Value": "Wed, 14 May 2025 07:11:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1538,12 +1538,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-XeTMKh9ojOdbmSm14GfcBhxeyaItydCl9YCoyR/Z1BQ="
+          "Value": "sha256-n+ZCqslVLAZhcXsVcQUkawmWVkpKWq9Lbuw5Zs/mGFQ="
         }
       ]
     },
     {
-      "Route": "css/site.xj1q6dgl2y.css",
+      "Route": "css/site.netn6z03pg.css",
       "AssetFile": "C:\\Development\\Projects\\Other\\AgriEnergy\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1553,7 +1553,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6101"
+          "Value": "7035"
         },
         {
           "Name": "Content-Type",
@@ -1561,11 +1561,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"XeTMKh9ojOdbmSm14GfcBhxeyaItydCl9YCoyR/Z1BQ=\""
+          "Value": "\"n+ZCqslVLAZhcXsVcQUkawmWVkpKWq9Lbuw5Zs/mGFQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 13:08:05 GMT"
+          "Value": "Wed, 14 May 2025 07:11:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1575,7 +1575,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "xj1q6dgl2y"
+          "Value": "netn6z03pg"
         },
         {
           "Name": "label",
@@ -1583,7 +1583,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-XeTMKh9ojOdbmSm14GfcBhxeyaItydCl9YCoyR/Z1BQ="
+          "Value": "sha256-n+ZCqslVLAZhcXsVcQUkawmWVkpKWq9Lbuw5Zs/mGFQ="
         }
       ]
     },

@@ -18,16 +18,30 @@
                         <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">AgriEnergyConnect</a>
                     </div>
                     <div class="navbar-links">
-                        <a class="dropbtn" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        <a class="dropbtn" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        
+                        <!-- Home Dropdown -->
+                        <div class="dropdown">
+                            <button class="dropbtn">Home</button>
+                            <div class="dropdown-content">
+                                <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                                <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+
+                            </div>
+                        </div>
 
                         <!-- Authentication Dropdown -->
                         <div class="dropdown">
                             <button class="dropbtn">Authentication</button>
                             <div class="dropdown-content">
-                                <a class="nav-link" asp-area="" asp-controller="Authentication" asp-action="SignIn">Sign In</a>
-                                <a class="nav-link" asp-area="" asp-controller="Authentication" asp-action="SignUp">Sign Up</a>
-                                <a class="nav-link" asp-area="" asp-controller="Authentication" asp-action="SignOut">Sign Out</a>
+
+                                @if (!EnvironmentVariables._isLoggedIn)
+                                {
+                                    <a class="nav-link" asp-area="" asp-controller="Authentication" asp-action="SignIn">Sign In</a>
+                                    <a class="nav-link" asp-area="" asp-controller="Authentication" asp-action="SignUp">Sign Up</a>
+                                }
+                                @if (EnvironmentVariables._isLoggedIn){
+                                    <a class="nav-link" asp-area="" asp-controller="Authentication" asp-action="SignOut">Sign Out</a>
+                                }                                                       
                             </div>
                         </div>
 
