@@ -17,75 +17,77 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AgriEnergyConnect
 build_property.RootNamespace = AgriEnergyConnect
-build_property.ProjectDir = C:\Users\troyk\source\repos\AgriEnergy\
+build_property.ProjectDir = C:\Development\Projects\Other\AgriEnergy\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\troyk\source\repos\AgriEnergy
+build_property.MSBuildProjectDirectory = C:\Development\Projects\Other\AgriEnergy
 build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/troyk/source/repos/AgriEnergy/Views/Authentication/SignIn.cshtml]
+[C:/Development/Projects/Other/AgriEnergy/Views/Authentication/SignIn.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aGVudGljYXRpb25cU2lnbkluLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/troyk/source/repos/AgriEnergy/Views/Authentication/SignUp.cshtml]
+[C:/Development/Projects/Other/AgriEnergy/Views/Authentication/SignUp.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aGVudGljYXRpb25cU2lnblVwLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/troyk/source/repos/AgriEnergy/Views/Employee/AddFarmer.cshtml]
+[C:/Development/Projects/Other/AgriEnergy/Views/Employee/AddFarmer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcQWRkRmFybWVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/troyk/source/repos/AgriEnergy/Views/Employee/AllFarmers.cshtml]
+[C:/Development/Projects/Other/AgriEnergy/Views/Employee/AllFarmers.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcQWxsRmFybWVycy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/troyk/source/repos/AgriEnergy/Views/Employee/Success.cshtml]
+[C:/Development/Projects/Other/AgriEnergy/Views/Employee/Success.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcU3VjY2Vzcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/troyk/source/repos/AgriEnergy/Views/Farmer/AddProduct.cshtml]
+[C:/Development/Projects/Other/AgriEnergy/Views/Farmer/AddProduct.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFybWVyXEFkZFByb2R1Y3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/troyk/source/repos/AgriEnergy/Views/Farmer/AllProducts.cshtml]
+[C:/Development/Projects/Other/AgriEnergy/Views/Farmer/AllProducts.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFybWVyXEFsbFByb2R1Y3RzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/troyk/source/repos/AgriEnergy/Views/Farmer/FarmerProducts.cshtml]
+[C:/Development/Projects/Other/AgriEnergy/Views/Farmer/FarmerProducts.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFybWVyXEZhcm1lclByb2R1Y3RzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/troyk/source/repos/AgriEnergy/Views/Farmer/Success.cshtml]
+[C:/Development/Projects/Other/AgriEnergy/Views/Farmer/Success.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFybWVyXFN1Y2Nlc3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/troyk/source/repos/AgriEnergy/Views/Home/Index.cshtml]
+[C:/Development/Projects/Other/AgriEnergy/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/troyk/source/repos/AgriEnergy/Views/Home/Privacy.cshtml]
+[C:/Development/Projects/Other/AgriEnergy/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/troyk/source/repos/AgriEnergy/Views/Shared/Error.cshtml]
+[C:/Development/Projects/Other/AgriEnergy/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/troyk/source/repos/AgriEnergy/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Development/Projects/Other/AgriEnergy/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/troyk/source/repos/AgriEnergy/Views/_ViewImports.cshtml]
+[C:/Development/Projects/Other/AgriEnergy/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/troyk/source/repos/AgriEnergy/Views/_ViewStart.cshtml]
+[C:/Development/Projects/Other/AgriEnergy/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/troyk/source/repos/AgriEnergy/Views/Shared/_Layout.cshtml]
+[C:/Development/Projects/Other/AgriEnergy/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-5gmpmslybv
